@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <h2>Login Form</h2>
+        <form id = "login_form">
+            <div class = "form_grp">
+                <label>Username</label>
+                <input type="text" id="Username"><br><br>
+                <span class="err_msg" id="Username_error"></span>
+            </div>
+
+            <div class ="form_grp">
+                <label>Password</label>
+                <input type="text" id="Password"><br><br>
+                <span class="err_msg" id="Password_error"></span>
+            </div>
+
+            <button type="button" onclick="validation()">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
